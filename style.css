@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;900&family=Sevillana&display=swap');
+
+/* font-family: 'Sevillana', cursive; */
+
+/* website's default CSS */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #fff;
+  font-family: 'Mulish', sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+
+/* 
+===================================
+            CSS INDEX
+===================================
+01. header section css
+02. main section css
+  2.1=
+  2.2=
+  2.3=
+  2.4=
+  2.5=
+03. footer section css
+*/
+
+
+
+/* Website's main CSS */
+/*
+==========================================
+          01. header section css  
+==========================================
+*/
