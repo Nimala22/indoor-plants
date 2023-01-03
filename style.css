@@ -26,8 +26,8 @@ ul {
 ===================================
 01. header section css
 02. main section css
-  2.1=
-  2.2=
+  2.1= hero-area-img section css
+  2.2= services section css
   2.3=
   2.4=
   2.5=
@@ -114,4 +114,110 @@ nav ul li a:hover {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+/*
+==========================================
+    2.2 services section css  
+==========================================
+*/
+#services{
+  background: #888;
+  padding: 50px 0;
+}
+
+.service-tittle h2{
+  font-size: 40px;
+  color: #4C3A51;
+  text-align: center;
+  letter-spacing: 3px;
+  padding-top: 40px;
+}
+
+.service-tittle h2 span{
+  color: #153302;
+}
+
+.service-tittle p{
+  font-size: 18px;
+  font-weight: 600;
+  color: #E7F6F2;
+  text-align: center;
+  margin: 20px;
+}
+
+.all-services{
+  width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 25px;
+  margin: auto;
+  padding: 50px 0;
+}
+
+.service-box{
+  background: #fff;
+  padding: .5rem;
+  border-radius: 3px;
+  text-align: center;
+  box-shadow: 10px 5px 15px #00171b;
+  transition: .5s;
+}
+.service-box:hover{
+  box-shadow: 15px 13px 15px #2A0944;
+}
+
+.service-box i{
+  font-size: 35px;
+  padding: .5rem;
+  margin: 10px 0;
+  color: #4C3A51;
+  transition: .5s;
+}
+
+.service-box:hover i{
+  transform: rotate(360deg);
+  background: #ddd;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 5px #eee;
+}
+
+.service-box h3{
+  font-size: 30px;
+  color: #191A19;
+  transition: .5s;
+}
+
+.service-box:hover h3{
+  color: #365fb2;
+  letter-spacing: 3px;
+}
+
+.service-box p{
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin: 15px 0;
+}
+
+.service-box .service-btn{
+  color: #fbe8d3;
+  background: #596e79;
+  border: none;
+  border-radius: 30rem;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 7px 10px;
+  margin-bottom: 20px;
+  letter-spacing: 3px;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.service-box .service-btn:hover{
+  color: #4C3A51;
+  background: #ddd;
+  box-shadow: 5px 5px 5px #000;
+  letter-spacing: 0;  
 }
