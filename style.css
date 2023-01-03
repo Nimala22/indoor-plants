@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;900&family=Sevillana&display=swap');
-
-/* font-family: 'Sevillana', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;600&family=Mulish:wght@400;600;900&display=swap');
 
 /* website's default CSS */
 *{
@@ -44,3 +42,66 @@ ul{
           01. header section css  
 ==========================================
 */
+header{
+  display: flex;
+  justify-content: space-between;
+  background: #00171b;
+  height: 80px;
+  width: 100%;
+  padding: 50px 80px;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 111;
+  font-family: 'Karla', sans-serif; 
+}
+
+header a h2{
+  font-size: 30px;  
+  color: #FBE8D3;
+  background: #596E79;
+  letter-spacing: 2px;  
+  padding: .8rem;
+  box-shadow: 1px 3px 4px #d1ddf6;
+  border-radius: 30rem;
+}
+
+nav ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li a{
+  color: #ddd;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding: .8rem;
+  margin: 0 20px;
+  transition: .5s;
+}
+
+nav ul li a.active,
+nav ul li a:hover{
+  color: #00ffea;   
+  border-radius: 30rem;
+  box-shadow: 2px 3px 5px 2px #F6F6F6;
+}
+
+/* for menu btn */
+#click{
+  display: none;
+}
+
+.menu-btn{
+  color: #fff;
+  font-size: 30px;
+  cursor: pointer;
+  display: none;  
+  transition: .5s;
+}
+
+.menu-btn:hover{
+  transform: rotate(360deg);
+}
+
