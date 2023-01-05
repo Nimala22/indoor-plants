@@ -1,6 +1,8 @@
 @media only screen and (max-width: 940px) {
+  /* For header section */
   .menu-btn {
     display: block;
+    margin: 0 20px;
   }
 
   header nav ul {
@@ -36,21 +38,77 @@
   }
 }
 
-/* services section responsive css */
+
 @media only screen and (max-width: 688px) {
+  /* For service section  */
   .all-services{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 15px;
     width: 85%;
+    margin: auto;
+  }
+
+  /* For indoor decoration section  */
+  .indoor-decoration-tittle h2{
+    font-size: 30px;
+    Width: 80%;
+    margin: auto;
+  }
+  .indoor-elements{
+    margin: 60px 0;
+    align-items: center;
+    display: block; 
+    width: 80%;   
+    margin: auto;
+  }
+
+  .indoor-image{
+    width: 90%;    
+    margin: auto;
+  }
+
+  .indoor-image img{
+    width: 100%;
+  }
+
+  .indoor-text{
+    display: block;
+    width: 90%;
+    margin: 40px auto;
   }
 }
 
 @media only screen and (min-width: 689px) and (max-width: 1199px) {
+  /* For service section  */
   .all-services{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
     width: 90%;
   }
+  /* For indoor decoration section  */
+  .indoor-elements{
+    margin: 60px 0;
+    align-items: center;
+    display: block; 
+    width: 80%;   
+    margin: auto;
+  }
+
+  .indoor-image{
+    width: 90%;    
+    margin: auto;
+  }
+
+  .indoor-image img{
+    width: 100%;
+  }
+
+  .indoor-text{
+    display: block;
+    width: 90%;
+    margin: 40px auto;
+  }
+  
 }
