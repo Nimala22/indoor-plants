@@ -30,7 +30,7 @@ ul {
   2.2= services section css
   2.3= indoor decoration section css
   2.4= gallery section css
-  2.5=
+  2.5= paralex section css
 03. footer section css
 */
 
@@ -108,12 +108,13 @@ nav ul li a:hover {
     2.1 hero-area-img section css  
 ==========================================
 */
-.hero-area-img{
+.hero-area-img {
   background: url("images/header-bg.jpg");
   height: 90vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  background-attachment: fixed;
 }
 
 /*
@@ -121,32 +122,32 @@ nav ul li a:hover {
     2.2 services section css  
 ==========================================
 */
-#services{
+#services {
   background: #888;
   padding: 50px 0;
 }
 
-.service-tittle h2{
+.service-tittle h2 {
   font-size: 40px;
-  color: #4C3A51;
+  color: #4c3a51;
   text-align: center;
   letter-spacing: 3px;
   padding-top: 40px;
 }
 
-.service-tittle h2 span{
+.service-tittle h2 span {
   color: #153302;
 }
 
-.service-tittle p{
+.service-tittle p {
   font-size: 18px;
   font-weight: 600;
-  color: #E7F6F2;
+  color: #e7f6f2;
   text-align: center;
   margin: 20px;
 }
 
-.all-services{
+.all-services {
   width: 1200px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -155,45 +156,45 @@ nav ul li a:hover {
   padding: 50px 0;
 }
 
-.service-box{
+.service-box {
   background: #fff;
-  padding: .5rem;
+  padding: 0.5rem;
   border-radius: 3px;
   text-align: center;
   box-shadow: 10px 5px 15px #00171b;
-  transition: .5s;
+  transition: 0.5s;
 }
-.service-box:hover{
-  box-shadow: 15px 13px 15px #2A0944;
+.service-box:hover {
+  box-shadow: 15px 13px 15px #2a0944;
 }
 
-.service-box i{
+.service-box i {
   font-size: 35px;
-  padding: .5rem;
+  padding: 0.5rem;
   margin: 10px 0;
-  color: #4C3A51;
-  transition: .5s;
+  color: #4c3a51;
+  transition: 0.5s;
 }
 
-.service-box:hover i{
+.service-box:hover i {
   transform: rotate(360deg);
   background: #ddd;
   border-radius: 5px;
   box-shadow: 5px 5px 5px 5px #eee;
 }
 
-.service-box h3{
+.service-box h3 {
   font-size: 30px;
-  color: #191A19;
-  transition: .5s;
+  color: #191a19;
+  transition: 0.5s;
 }
 
-.service-box:hover h3{
+.service-box:hover h3 {
   color: #365fb2;
   letter-spacing: 3px;
 }
 
-.service-box p{
+.service-box p {
   color: #000;
   font-size: 18px;
   font-weight: 600;
@@ -201,7 +202,7 @@ nav ul li a:hover {
   margin: 15px 0;
 }
 
-.service-box .service-btn{
+.service-box .service-btn {
   color: #fbe8d3;
   background: #596e79;
   border: none;
@@ -212,14 +213,14 @@ nav ul li a:hover {
   margin-bottom: 20px;
   letter-spacing: 3px;
   cursor: pointer;
-  transition: .5s;
+  transition: 0.5s;
 }
 
-.service-box .service-btn:hover{
-  color: #4C3A51;
+.service-box .service-btn:hover {
+  color: #4c3a51;
   background: #ddd;
   box-shadow: 5px 5px 5px #000;
-  letter-spacing: 0;  
+  letter-spacing: 0;
 }
 
 /*
@@ -227,23 +228,23 @@ nav ul li a:hover {
     2.3 indoor decoration section css  
 ==========================================
 */
-#indoor-decoration{
+#indoor-decoration {
   padding: 80px 0;
   background: #fbe8d3;
 }
 
-.indoor-decoration-tittle h2{
+.indoor-decoration-tittle h2 {
   font-size: 40px;
-  color: #4C3A51;
+  color: #4c3a51;
   text-align: center;
   letter-spacing: 3px;
 }
 
-.indoor-decoration-tittle span{
+.indoor-decoration-tittle span {
   color: #153302;
 }
 
-.indoor-decoration-tittle p{
+.indoor-decoration-tittle p {
   font-size: 18px;
   font-weight: 600;
   color: #888;
@@ -251,7 +252,7 @@ nav ul li a:hover {
   margin: 20px;
 }
 
-.indoor-elements{
+.indoor-elements {
   margin: 60px 0;
   width: 90%;
   display: flex;
@@ -259,38 +260,38 @@ nav ul li a:hover {
   margin: auto;
 }
 
-.indoor-image{
+.indoor-image {
   width: 65%;
   overflow: hidden;
 }
 
-.indoor-image img{
+.indoor-image img {
   width: 100%;
-  height: auto;  
-  transition: .5s;
+  height: auto;
+  transition: 0.5s;
 }
 
-.indoor-image img:hover{
+.indoor-image img:hover {
   transform: scale(1.3);
 }
 
-.indoor-text{
+.indoor-text {
   width: 25%;
 }
 
-.indoor-text h4{
+.indoor-text h4 {
   font-size: 20px;
   color: #365fb2;
 }
 
-.indoor-text h2{
+.indoor-text h2 {
   font-size: 35px;
   font-weight: 800;
-  color: #A31ACB;
+  color: #a31acb;
   margin: 30px 0;
 }
 
-.indoor-text p{
+.indoor-text p {
   font-size: 18px;
   font-weight: 600;
   color: #596e79;
@@ -298,21 +299,21 @@ nav ul li a:hover {
   margin: 15px 0;
 }
 
-.indoor-btn{
+.indoor-btn {
   font-size: 22px;
   font-weight: 600;
-  padding: .8rem;
-  color: #4C3A51;
+  padding: 0.8rem;
+  color: #4c3a51;
   background: #ddd;
   box-shadow: 5px 5px 5px #888;
   border: 2px solid #fff;
   border-radius: 30rem;
   letter-spacing: 2px;
   cursor: pointer;
-  transition: .5s;
+  transition: 0.5s;
 }
 
-.indoor-btn:hover{
+.indoor-btn:hover {
   background: #fff;
   border: 2px solid #00ffea;
   box-shadow: 5px 5px 5px #000;
@@ -323,40 +324,40 @@ nav ul li a:hover {
     2.4 gallery section css  
 ==========================================
 */
-#gallery{
+#gallery {
   background: #eee;
   padding: 80px 0;
 }
 
-.gallery-tittle{
+.gallery-tittle {
   text-align: center;
 }
 
-.gallery-tittle h2{
+.gallery-tittle h2 {
   font-size: 40px;
-  color: #4C3A51;
+  color: #4c3a51;
   text-align: center;
   letter-spacing: 3px;
   padding-top: 40px;
 }
 
-.gallery-tittle h2 span{
+.gallery-tittle h2 span {
   color: #153302;
 }
 
-.gallery-tittle h4{
+.gallery-tittle h4 {
   font-size: 25px;
   color: #365fb2;
   margin: 20px 0;
 }
 
-.gallery-tittle p{
+.gallery-tittle p {
   font-size: 18px;
   font-weight: 600;
   color: #a31acb;
 }
 
-.gallery-plants{
+.gallery-plants {
   width: 90%;
   margin: 50px auto 0;
   display: grid;
@@ -364,7 +365,7 @@ nav ul li a:hover {
   grid-gap: 20px;
 }
 
-.plant-box .images{
+.plant-box .images {
   width: 410px;
   height: 300px;
   border: 3px solid #ddd;
@@ -373,14 +374,14 @@ nav ul li a:hover {
   overflow: hidden;
 }
 
-.plant-box .images a img{
+.plant-box .images a img {
   height: 100%;
-  width: 100%;  
+  width: 100%;
 }
 
-.plant-box .images .images-overlay{
+.plant-box .images .images-overlay {
   position: absolute;
-  top:100%;
+  top: 100%;
   left: 0;
   background: #0000007e;
   width: 100%;
@@ -388,62 +389,82 @@ nav ul li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: .5s;
+  transition: 0.5s;
 }
 
-.plant-box .images .images-overlay i{
+.plant-box .images .images-overlay i {
   font-size: 25px;
-  color: #4C3A51;
+  color: #4c3a51;
   background: #ddd;
-  margin: .5rem;
-  padding: .8rem;
+  margin: 0.5rem;
+  padding: 0.8rem;
   border: 2px solid #00ffea;
   border-radius: 5px;
   cursor: pointer;
-  transition: all .5s ease;
+  transition: all 0.5s ease;
 }
 
-.plant-box .images .images-overlay i:hover{
+.plant-box .images .images-overlay i:hover {
   color: #365fb2;
   background: #fff;
   border: 2px solid #888;
   transform: rotate(360deg);
 }
 
-.plant-box .images .images-overlay span{
+.plant-box .images .images-overlay span {
   color: #00ffea;
   font-size: 25px;
   font-weight: 900;
   text-transform: capitalize;
-  letter-spacing: 2px;  
+  letter-spacing: 2px;
   text-align: center;
 }
 
-.plant-box .images:hover .images-overlay{
+.plant-box .images:hover .images-overlay {
   top: 0;
 }
 
-.plant-code-rate{
+.plant-code-rate {
   display: flex;
   justify-content: space-between;
   margin: 5px 20px;
 }
 
 .plant-code-rate .code i,
-.plant-code-rate .rate i{
+.plant-code-rate .rate i {
   font-size: 25px;
-  color: #4C3A51;
+  color: #4c3a51;
 }
 
-.plant-code-rate .code{
+.plant-code-rate .code {
   cursor: pointer;
 }
 
 .plant-code-rate .code span,
-.plant-code-rate .rate span{
+.plant-code-rate .rate span {
   font-size: 20px;
   font-weight: 900;
   color: #596e79;
   margin: 5px;
 }
 
+/*
+==========================================
+    2.5 paralex section css  
+==========================================
+*/
+#paralex{
+  background: url(images/paralex-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#paralex h2{
+  font-size: 40px;
+  font-weight: 800;
+  color: #00ffea;
+  text-align: center;
+  padding: 90px 0;
+}
