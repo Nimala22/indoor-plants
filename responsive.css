@@ -77,6 +77,23 @@
     width: 90%;
     margin: 40px auto;
   }
+  /* For gallery plants section  */
+  .gallery-plants{
+    width: 90%;
+    margin: 50px auto 0;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 15px;
+  }
+
+  .gallery-plants .plant-box .images{
+    width: 90%;
+    margin: auto;
+  }
+
+  .plant-box .images .images-overlay i{
+    font-size: 20px;
+  }
 }
 
 @media only screen and (min-width: 689px) and (max-width: 1199px) {
@@ -110,5 +127,24 @@
     width: 90%;
     margin: 40px auto;
   }
+  /* For gallery plants section  */
+  .gallery-plants{
+    width: 90%;
+    margin: 50px auto 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+  }
+
+  .gallery-plants .plant-box .images{
+    width: 90%;
+    margin: auto;
+  }
+
+  .plant-box .images .images-overlay i{
+    font-size: 20px;
+  }
+
+  
   
 }

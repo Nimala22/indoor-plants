@@ -29,7 +29,7 @@ ul {
   2.1= hero-area-img section css
   2.2= services section css
   2.3= indoor decoration section css
-  2.4=
+  2.4= gallery section css
   2.5=
 03. footer section css
 */
@@ -317,3 +317,133 @@ nav ul li a:hover {
   border: 2px solid #00ffea;
   box-shadow: 5px 5px 5px #000;
 }
+
+/*
+==========================================
+    2.4 gallery section css  
+==========================================
+*/
+#gallery{
+  background: #eee;
+  padding: 80px 0;
+}
+
+.gallery-tittle{
+  text-align: center;
+}
+
+.gallery-tittle h2{
+  font-size: 40px;
+  color: #4C3A51;
+  text-align: center;
+  letter-spacing: 3px;
+  padding-top: 40px;
+}
+
+.gallery-tittle h2 span{
+  color: #153302;
+}
+
+.gallery-tittle h4{
+  font-size: 25px;
+  color: #365fb2;
+  margin: 20px 0;
+}
+
+.gallery-tittle p{
+  font-size: 18px;
+  font-weight: 600;
+  color: #a31acb;
+}
+
+.gallery-plants{
+  width: 90%;
+  margin: 50px auto 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+.plant-box .images{
+  width: 410px;
+  height: 300px;
+  border: 3px solid #ddd;
+  border-radius: 1px 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.plant-box .images a img{
+  height: 100%;
+  width: 100%;  
+}
+
+.plant-box .images .images-overlay{
+  position: absolute;
+  top:100%;
+  left: 0;
+  background: #0000007e;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .5s;
+}
+
+.plant-box .images .images-overlay i{
+  font-size: 25px;
+  color: #4C3A51;
+  background: #ddd;
+  margin: .5rem;
+  padding: .8rem;
+  border: 2px solid #00ffea;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all .5s ease;
+}
+
+.plant-box .images .images-overlay i:hover{
+  color: #365fb2;
+  background: #fff;
+  border: 2px solid #888;
+  transform: rotate(360deg);
+}
+
+.plant-box .images .images-overlay span{
+  color: #00ffea;
+  font-size: 25px;
+  font-weight: 900;
+  text-transform: capitalize;
+  letter-spacing: 2px;  
+  text-align: center;
+}
+
+.plant-box .images:hover .images-overlay{
+  top: 0;
+}
+
+.plant-code-rate{
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 20px;
+}
+
+.plant-code-rate .code i,
+.plant-code-rate .rate i{
+  font-size: 25px;
+  color: #4C3A51;
+}
+
+.plant-code-rate .code{
+  cursor: pointer;
+}
+
+.plant-code-rate .code span,
+.plant-code-rate .rate span{
+  font-size: 20px;
+  font-weight: 900;
+  color: #596e79;
+  margin: 5px;
+}
+
