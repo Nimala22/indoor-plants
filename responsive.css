@@ -38,10 +38,9 @@
   }
 }
 
-
 @media only screen and (max-width: 688px) {
   /* For service section  */
-  .all-services{
+  .all-services {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 15px;
@@ -50,35 +49,35 @@
   }
 
   /* For indoor decoration section  */
-  .indoor-decoration-tittle h2{
+  .indoor-decoration-tittle h2 {
     font-size: 30px;
-    Width: 80%;
+    width: 80%;
     margin: auto;
   }
-  .indoor-elements{
+  .indoor-elements {
     margin: 60px 0;
     align-items: center;
-    display: block; 
-    width: 80%;   
+    display: block;
+    width: 80%;
     margin: auto;
   }
 
-  .indoor-image{
-    width: 90%;    
+  .indoor-image {
+    width: 90%;
     margin: auto;
   }
 
-  .indoor-image img{
+  .indoor-image img {
     width: 100%;
   }
 
-  .indoor-text{
+  .indoor-text {
     display: block;
     width: 90%;
     margin: 40px auto;
   }
   /* For gallery plants section  */
-  .gallery-plants{
+  .gallery-plants {
     width: 90%;
     margin: 50px auto 0;
     display: grid;
@@ -86,16 +85,16 @@
     grid-gap: 15px;
   }
 
-  .gallery-plants .plant-box .images{
+  .gallery-plants .plant-box .images {
     width: 90%;
     margin: auto;
   }
 
-  .plant-box .images .images-overlay i{
+  .plant-box .images .images-overlay i {
     font-size: 20px;
   }
   /* For parallax section */
-  #parallax h2{
+  #parallax h2 {
     font-size: 30px;
     font-weight: 600;
     color: #00ffea;
@@ -111,59 +110,77 @@
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 25px;
   }
-  
+
   .customer-box {
     display: block;
     text-align: center;
     gap: 25px;
     box-shadow: 6px 5px 5px 5px #888;
     border-radius: 5px;
-    transition: .5s;
+    transition: 0.5s;
   }
 
   .customer-box .image,
-  .customer-box .review-content{
+  .customer-box .review-content {
     width: 100%;
   }
+  /* For about section */
+  #about {
+    padding: 20px 0;
+  }
+  .about-content-box {
+    width: 90%;
+    margin: auto;
+    display: block;
+    gap: 20px;
+    align-items: center;
+  }
 
+  .about-boxes,
+  .about-content {
+    margin: 30px 0;
+  }
 
-
-
+  .about-boxes {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+  }
 }
 
 @media only screen and (min-width: 689px) and (max-width: 1199px) {
   /* For service section  */
-  .all-services{
+  .all-services {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
     width: 90%;
   }
   /* For indoor decoration section  */
-  .indoor-elements{
+  .indoor-elements {
     margin: 60px 0;
     align-items: center;
-    display: block; 
-    width: 80%;   
+    display: block;
+    width: 80%;
     margin: auto;
   }
 
-  .indoor-image{
-    width: 90%;    
+  .indoor-image {
+    width: 90%;
     margin: auto;
   }
 
-  .indoor-image img{
+  .indoor-image img {
     width: 100%;
   }
 
-  .indoor-text{
+  .indoor-text {
     display: block;
     width: 90%;
     margin: 40px auto;
   }
   /* For gallery plants section  */
-  .gallery-plants{
+  .gallery-plants {
     width: 90%;
     margin: 50px auto 0;
     display: grid;
@@ -171,16 +188,16 @@
     grid-gap: 15px;
   }
 
-  .gallery-plants .plant-box .images{
+  .gallery-plants .plant-box .images {
     width: 90%;
     margin: auto;
   }
 
-  .plant-box .images .images-overlay i{
+  .plant-box .images .images-overlay i {
     font-size: 20px;
   }
   /* For parallax section */
-  #parallax h2{
+  #parallax h2 {
     font-size: 35px;
     font-weight: 700;
     color: #00ffea;
@@ -196,21 +213,40 @@
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 25px;
   }
-  
+
   .customer-box {
     display: block;
     text-align: center;
     gap: 25px;
     box-shadow: 6px 5px 5px 5px #888;
     border-radius: 5px;
-    transition: .5s;
+    transition: 0.5s;
   }
 
   .customer-box .image,
-  .customer-box .review-content{
+  .customer-box .review-content {
     width: 100%;
   }
+  /* For about section */
+  #about {
+    padding: 20px 0;
+  }
+  .about-content-box {
+    width: 80%;
+    margin: auto;
+    display: block;
+    gap: 20px;
+    align-items: center;
+  }
 
-  
-  
+  .about-boxes,
+  .about-content {
+    margin: 30px 0;
+  }
+
+  .about-boxes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
 }

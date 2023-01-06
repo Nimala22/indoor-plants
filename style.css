@@ -32,6 +32,7 @@ ul {
   2.4= gallery section css
   2.5= parallax section css
   2.6= review section css
+  2.7= about section css
 
 03. footer section css
 */
@@ -473,11 +474,11 @@ nav ul li a:hover {
 
 /*
 ==========================================
-    2.5 review section css  
+    2.6 review section css  
 ==========================================
 */
 #review {
-  padding: 100px 0;
+  padding: 80px 0;
 }
 
 .review-section-tittle h2 {
@@ -569,4 +570,105 @@ nav ul li a:hover {
 .review-content:hover h2,
 .review-content:hover i{
   letter-spacing: 7px;
+}
+
+/*
+==========================================
+    2.7 about section css  
+==========================================
+*/
+#about{
+  background: url('images/about-bg.png');
+  background-repeat: no-repeat;  
+  background-position: center center;
+  background-size: cover;
+  padding: 450px 0;
+}
+
+.about-content-box{
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: center;
+  margin: 0 15%;  
+}
+
+.about-boxes,
+.about-content{
+  background: #0000007e;
+  padding: 1.2rem;
+  border-radius: 10px;
+}
+
+.about-content h3{
+  font-size: 30px;
+  font-weight: 800;
+  color: #00ffea;
+}
+
+.about-content p{
+  font-size: 18px;  
+  line-height: 1.5;
+  color: #eee;
+  margin: 20px 0;
+}
+
+.about-content ul li{
+  display: block;
+}
+
+.about-content ul li i{
+  font-size: 20px;
+  color: #00ffea;
+  font-weight: 800;
+  display: inline-block;   
+}
+
+.about-content ul li p{    
+  font-weight: 800;
+  display: inline-block;
+  line-height: 1.2;
+  margin: 5px;
+}
+
+.about-content .about-btn{
+  font-size: 20px;
+  font-weight: 800;
+  color: #a31acb;
+  background: #eee;
+  padding: 5px 10px;
+  border: 2px solid #00ffea;
+  border-radius: 5px;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.about-boxes{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.about-boxes .box{
+  background: #fff;
+  text-align: center;
+  padding: 1rem;
+  transition: .5s;
+}
+
+.about-boxes .box:hover{
+  box-shadow: 12px 15px 10px #4c3a51;
+}
+
+.box h3{
+  color: #a31acb;
+  font-size: 30px;
+}
+
+.box p{
+  font-size: 18px;
+  color: #000;
+  font-weight: 800;
+  line-height: 1.5;
+  margin: 20px 0;
 }
