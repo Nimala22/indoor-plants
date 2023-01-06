@@ -146,6 +146,26 @@
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 20px;
   }
+
+  /* For reception section */
+  .reception-content{
+    width: 80%;
+    margin: 20px auto;
+    display: block;    
+    gap: 30px;
+  }
+
+  .reception-img .image{
+    width: 95%;
+  }
+
+
+
+
+
+
+
+
 }
 
 @media only screen and (min-width: 689px) and (max-width: 1199px) {
@@ -249,4 +269,23 @@
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
   }
+  /* For reception section */
+  .reception-content{
+    width: 80%;
+    margin: 20px auto;
+    display: block;    
+    gap: 30px;
+  }
+
+  .reception-img .image{
+    width: 95%;
+  }
+
+
+
+
+
+
+
+
 }
