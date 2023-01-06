@@ -167,6 +167,15 @@
   width: 70%;
   }
 
+  /* For delivery section */
+  .delivery-icons{
+    width: 90%;
+    margin: auto;  
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+  }
+
 
 
 
@@ -295,6 +304,14 @@
 
   .form{
     width: 70%;
+  }
+  /* For delivery section */
+  .delivery-icons{
+    width: 90%;
+    margin: auto;  
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
   }
 
 
