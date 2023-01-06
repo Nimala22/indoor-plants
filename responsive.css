@@ -148,40 +148,43 @@
   }
 
   /* For reception section */
-  .reception-content{
+  .reception-content {
     width: 80%;
     margin: 20px auto;
-    display: block;    
+    display: block;
     gap: 30px;
   }
 
-  .reception-img .image{
+  .reception-img .image {
     width: 95%;
   }
- /* For contact section */
-  #contact{
-  width: 100%;
+  /* For contact section */
+  #contact {
+    width: 100%;
   }
 
-  .form{
-  width: 70%;
+  .form {
+    width: 70%;
   }
 
   /* For delivery section */
-  .delivery-icons{
+  .delivery-icons {
     width: 90%;
-    margin: auto;  
+    margin: auto;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 20px;
   }
 
-
-
-
-
-
-
+  /* For footer section */
+  .footer-content {
+    width: 90%;
+    margin: auto;
+    padding: 100px 0;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+  }
 }
 
 @media only screen and (min-width: 689px) and (max-width: 1199px) {
@@ -286,39 +289,40 @@
     grid-gap: 20px;
   }
   /* For reception section */
-  .reception-content{
+  .reception-content {
     width: 80%;
     margin: 20px auto;
-    display: block;    
+    display: block;
     gap: 30px;
   }
 
-  .reception-img .image{
+  .reception-img .image {
     width: 95%;
   }
 
   /* For contact section */
-  #contact{
+  #contact {
     width: 100%;
   }
 
-  .form{
+  .form {
     width: 70%;
   }
   /* For delivery section */
-  .delivery-icons{
+  .delivery-icons {
     width: 90%;
-    margin: auto;  
+    margin: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 30px;
   }
-
-
-
-
-
-
-
-
+  /* For footer section */
+  .footer-content {
+    width: 90%;
+    margin: auto;
+    padding: 100px 0;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+  }
 }
