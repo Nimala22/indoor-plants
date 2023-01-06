@@ -158,7 +158,14 @@
   .reception-img .image{
     width: 95%;
   }
+ /* For contact section */
+  #contact{
+  width: 100%;
+  }
 
+  .form{
+  width: 70%;
+  }
 
 
 
@@ -279,6 +286,15 @@
 
   .reception-img .image{
     width: 95%;
+  }
+
+  /* For contact section */
+  #contact{
+    width: 100%;
+  }
+
+  .form{
+    width: 70%;
   }
 
 
