@@ -185,6 +185,12 @@
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 30px;
   }
+  /* For footer bottom */
+  .footer-bottom {
+    padding: 1.5rem;
+    width: 90%;
+    margin: auto;
+  }
 }
 
 @media only screen and (min-width: 689px) and (max-width: 1199px) {
@@ -324,5 +330,11 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 30px;
+  }
+  /* For footer bottom */
+  .footer-bottom {
+    padding: 1.5rem;
+    width: 90%;
+    margin: auto;
   }
 }

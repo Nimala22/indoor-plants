@@ -305,6 +305,7 @@ nav ul li a:hover {
   font-weight: 600;
   color: #596e79;
   line-height: 1.5;
+  text-align: justify;
   margin: 15px 0;
 }
 
@@ -584,11 +585,11 @@ nav ul li a:hover {
 ==========================================
 */
 #about {
-  background: url("images/about-bg.png");
+  background: url("images/about-bg.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding: 450px 0;
+  padding: 85px 0;
 }
 
 .about-content-box {
@@ -601,9 +602,9 @@ nav ul li a:hover {
 
 .about-boxes,
 .about-content {
-  background: #0000007e;
   padding: 1.2rem;
   border-radius: 10px;
+  transition: 0.5s;
 }
 
 .about-content h3 {
@@ -662,8 +663,9 @@ nav ul li a:hover {
   transition: 0.5s;
 }
 
+.about-content:hover,
 .about-boxes .box:hover {
-  box-shadow: 12px 15px 10px #4c3a51;
+  box-shadow: 5px 5px 5px #365fb2;
 }
 
 .box h3 {
@@ -782,11 +784,11 @@ nav ul li a:hover {
   background-position: center center;
 }
 
-.contact-form{
-  padding: 350px 0;  
+.contact-form {
+  padding: 80px 0;
 }
 
-.form{
+.form {
   width: 40%;
   margin: auto;
   padding: 1rem;
@@ -794,14 +796,14 @@ nav ul li a:hover {
   border: 2px solid #00ffea;
 }
 
-.form .form-tittle h3{
+.form .form-tittle h3 {
   font-size: 30px;
   color: #fbe8d3;
   text-align: center;
   margin: 20px 0;
 }
 
-.form .form-tittle p{
+.form .form-tittle p {
   color: #fff;
   font-size: 18px;
   font-weight: 700;
@@ -809,7 +811,7 @@ nav ul li a:hover {
   text-align: center;
 }
 
-.form label{
+.form label {
   font-size: 25px;
   font-weight: 700;
   color: #eee;
@@ -817,7 +819,7 @@ nav ul li a:hover {
 }
 
 .form input,
-.form textarea{
+.form textarea {
   width: 100%;
   padding: 1rem;
   margin: 10px 0;
@@ -827,22 +829,22 @@ nav ul li a:hover {
   text-transform: capitalize;
   font-weight: 700;
   border: none;
-  transition: .5s;
+  transition: 0.5s;
 }
 
-.form input:hover, 
-.form textarea:hover{
+.form input:hover,
+.form textarea:hover {
   box-shadow: 5px 5px 5px 5px #000;
 }
 
-.form .submit-btn{
+.form .submit-btn {
   display: inline-block;
   width: 150px;
   margin: 0 auto;
   cursor: pointer;
 }
 
-.form .submit-btn:hover{
+.form .submit-btn:hover {
   color: #00171b;
   background: #eee;
   border: 2px solid #a31acb;
@@ -853,60 +855,66 @@ nav ul li a:hover {
     2.10 delivery section css  
 ==========================================
 */
-#delivery{
+#delivery {
   padding: 80px 0;
   background: #ddd;
 }
 
-.delivery-icons{
+.delivery-icons {
   width: 1200px;
-  margin: auto;  
+  margin: auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 50px;
 }
 
-.delivery-icons h2{
+.delivery-icons > h2 {
   font-size: 40px;
   color: #4c3a51;
+  transition: .5s;
+  box-shadow: 15px 15px 15px #eee;
 }
 
-.delivery-options{
+.delivery-options {
   padding: 1rem;
   border: 3px groove #a31acb;
-  box-shadow: 5px 5px 5px #000;
+  transition: .5s;
 }
 
-.delivery-options legend i{
+.delivery-options:hover{
+  box-shadow: 15px 15px 15px #000;
+}
+
+.delivery-options legend i {
   font-size: 35px;
   color: #ff4500;
   margin: 0 15px;
 }
 
-.delivery-options h4{
+.delivery-options h4 {
   font-size: 25px;
   color: #153302;
 }
 
-.delivery-options p{
+.delivery-options p {
   font-size: 18px;
   font-weight: 600;
   line-height: 1.2;
   margin: 15px 0;
 }
 
-.delivery-options .delivery-btn{
+.delivery-options .delivery-btn {
   display: flex;
   justify-content: space-around;
 }
 
-.delivery-btn span{
+.delivery-btn span {
   color: #4c3a51;
   font-size: 22px;
   font-weight: 800;
 }
 
-.delivery-options a{
+.delivery-options a {
   font-size: 25px;
   font-weight: 700;
   color: #ddd;
@@ -915,7 +923,7 @@ nav ul li a:hover {
   border: 2px solid #fff;
   border-radius: 30rem;
   box-shadow: 5px 5px 5px #000;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .delivery-options a:hover {
@@ -931,25 +939,25 @@ nav ul li a:hover {
 ==========================================
 */
 
-footer{
+footer {
   background: #4c3a51;
 }
 
-.footer-content{
+.footer-content {
   width: 1200px;
   margin: auto;
   padding: 100px 0;
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 30px;
 }
 
-.about h2{
+.about h2 {
   font-size: 30px;
   color: #fff;
 }
 
-.about p{
+.about p {
   font-size: 18px;
   font-weight: 600;
   color: #ddd;
@@ -958,7 +966,7 @@ footer{
   text-align: justify;
 }
 
-.about a{
+.about a {
   font-size: 25px;
   color: #153302;
   background: #eee;
@@ -967,15 +975,15 @@ footer{
   margin: 20px 0;
   border-radius: 5px;
   cursor: pointer;
-  transition: .5;
+  transition: 0.5;
 }
 
-.about a:hover{
+.about a:hover {
   color: #a31acb;
   background: #fff;
 }
 
-.quick-links a{
+.quick-links a {
   color: #fff;
   display: block;
   margin: 20px 0;
@@ -984,24 +992,53 @@ footer{
   background: #888;
   padding: 5px 10px;
   text-align: center;
-  transition: .5s;
+  transition: 0.5s;
 }
 
-.quick-links a:hover{
+.quick-links a:hover {
   letter-spacing: 5px;
 }
 
-.social-icons a i{
+.social-icons a {
+  margin: 0 20px;
+}
+
+.social-icons a i {
   font-size: 25px;
   font-weight: 800;
   color: #153302;
   background: #eee;
-  padding: .5rem;
-  margin: 20px;
+  padding: 0.5rem;
   border-radius: 5px;
-  transition: .5s;
+  transition: 0.5s;
 }
 
-.social-icons a:hover i{
+.social-icons a:hover i {
   transform: rotate(360deg);
+}
+
+footer hr {
+  height: 4px;
+  background: #00ffea;
+}
+
+.footer-bottom {
+  padding: 1.5rem;
+  width: 35%;
+  margin: auto;
+}
+
+.footer-bottom strong {
+  font-size: 20px;
+  color: #fff;
+  line-height: 2;
+}
+
+.footer-bottom strong a {
+  font-size: 20px;
+  color: #2a0944;
+  background: #fff;
+  padding: 8px 15px;
+  border-radius: 30rem;
+  box-shadow: 5px 5px 5px #000;
 }
